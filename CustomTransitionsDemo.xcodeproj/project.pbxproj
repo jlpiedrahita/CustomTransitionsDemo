@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82F7240919D9DDED005BC12A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F7240819D9DDED005BC12A /* main.m */; };
+		82F7240C19D9DDED005BC12A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F7240B19D9DDED005BC12A /* AppDelegate.m */; };
+		82F7241219D9DDED005BC12A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F7241019D9DDED005BC12A /* Main.storyboard */; };
+		82F7241419D9DDED005BC12A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F7241319D9DDED005BC12A /* Images.xcassets */; };
+		82F7241719D9DDED005BC12A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82F7241519D9DDED005BC12A /* LaunchScreen.xib */; };
+		82F7242319D9DDED005BC12A /* CustomTransitionsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F7242219D9DDED005BC12A /* CustomTransitionsDemoTests.m */; };
+		82F7243519D9DE45005BC12A /* JLBaseTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F7242E19D9DE45005BC12A /* JLBaseTransitionAnimator.m */; };
+		82F7243619D9DE45005BC12A /* JLDropTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F7243019D9DE45005BC12A /* JLDropTransitionAnimator.m */; };
+		82F7243719D9DE45005BC12A /* JLSpringTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F7243219D9DE45005BC12A /* JLSpringTransitionAnimator.m */; };
+		82F7243819D9DE45005BC12A /* JLZoomTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F7243419D9DE45005BC12A /* JLZoomTransitionAnimator.m */; };
+		82F7243E19D9DF55005BC12A /* JLDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F7243A19D9DF55005BC12A /* JLDatePickerViewController.m */; };
+		82F7243F19D9DF55005BC12A /* JLDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82F7243B19D9DF55005BC12A /* JLDatePickerViewController.xib */; };
+		82F7244019D9DF55005BC12A /* JLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F7243D19D9DF55005BC12A /* JLMainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82F7241D19D9DDED005BC12A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82F723FB19D9DDED005BC12A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82F7240219D9DDED005BC12A;
+			remoteInfo = CustomTransitionsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82F7240319D9DDED005BC12A /* CustomTransitionsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTransitionsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F7240719D9DDED005BC12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F7240819D9DDED005BC12A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82F7240A19D9DDED005BC12A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82F7240B19D9DDED005BC12A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82F7241119D9DDED005BC12A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82F7241319D9DDED005BC12A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82F7241619D9DDED005BC12A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		82F7241C19D9DDED005BC12A /* CustomTransitionsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTransitionsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F7242119D9DDED005BC12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F7242219D9DDED005BC12A /* CustomTransitionsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionsDemoTests.m; sourceTree = "<group>"; };
+		82F7242D19D9DE45005BC12A /* JLBaseTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLBaseTransitionAnimator.h; sourceTree = "<group>"; };
+		82F7242E19D9DE45005BC12A /* JLBaseTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLBaseTransitionAnimator.m; sourceTree = "<group>"; };
+		82F7242F19D9DE45005BC12A /* JLDropTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLDropTransitionAnimator.h; sourceTree = "<group>"; };
+		82F7243019D9DE45005BC12A /* JLDropTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLDropTransitionAnimator.m; sourceTree = "<group>"; };
+		82F7243119D9DE45005BC12A /* JLSpringTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSpringTransitionAnimator.h; sourceTree = "<group>"; };
+		82F7243219D9DE45005BC12A /* JLSpringTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSpringTransitionAnimator.m; sourceTree = "<group>"; };
+		82F7243319D9DE45005BC12A /* JLZoomTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLZoomTransitionAnimator.h; sourceTree = "<group>"; };
+		82F7243419D9DE45005BC12A /* JLZoomTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLZoomTransitionAnimator.m; sourceTree = "<group>"; };
+		82F7243919D9DF55005BC12A /* JLDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLDatePickerViewController.h; sourceTree = "<group>"; };
+		82F7243A19D9DF55005BC12A /* JLDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLDatePickerViewController.m; sourceTree = "<group>"; };
+		82F7243B19D9DF55005BC12A /* JLDatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JLDatePickerViewController.xib; sourceTree = "<group>"; };
+		82F7243C19D9DF55005BC12A /* JLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMainViewController.h; sourceTree = "<group>"; };
+		82F7243D19D9DF55005BC12A /* JLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82F7240019D9DDED005BC12A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F7241919D9DDED005BC12A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82F723FA19D9DDED005BC12A = {
+			isa = PBXGroup;
+			children = (
+				82F7240519D9DDED005BC12A /* CustomTransitionsDemo */,
+				82F7241F19D9DDED005BC12A /* CustomTransitionsDemoTests */,
+				82F7240419D9DDED005BC12A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82F7240419D9DDED005BC12A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82F7240319D9DDED005BC12A /* CustomTransitionsDemo.app */,
+				82F7241C19D9DDED005BC12A /* CustomTransitionsDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82F7240519D9DDED005BC12A /* CustomTransitionsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				82F7243C19D9DF55005BC12A /* JLMainViewController.h */,
+				82F7243D19D9DF55005BC12A /* JLMainViewController.m */,
+				82F7241019D9DDED005BC12A /* Main.storyboard */,
+				82F7243919D9DF55005BC12A /* JLDatePickerViewController.h */,
+				82F7243A19D9DF55005BC12A /* JLDatePickerViewController.m */,
+				82F7243B19D9DF55005BC12A /* JLDatePickerViewController.xib */,
+				82F7242C19D9DE45005BC12A /* TransitionAnimators */,
+				82F7240619D9DDED005BC12A /* Supporting Files */,
+			);
+			path = CustomTransitionsDemo;
+			sourceTree = "<group>";
+		};
+		82F7240619D9DDED005BC12A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82F7240A19D9DDED005BC12A /* AppDelegate.h */,
+				82F7240B19D9DDED005BC12A /* AppDelegate.m */,
+				82F7241319D9DDED005BC12A /* Images.xcassets */,
+				82F7241519D9DDED005BC12A /* LaunchScreen.xib */,
+				82F7240719D9DDED005BC12A /* Info.plist */,
+				82F7240819D9DDED005BC12A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82F7241F19D9DDED005BC12A /* CustomTransitionsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				82F7242219D9DDED005BC12A /* CustomTransitionsDemoTests.m */,
+				82F7242019D9DDED005BC12A /* Supporting Files */,
+			);
+			path = CustomTransitionsDemoTests;
+			sourceTree = "<group>";
+		};
+		82F7242019D9DDED005BC12A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82F7242119D9DDED005BC12A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82F7242C19D9DE45005BC12A /* TransitionAnimators */ = {
+			isa = PBXGroup;
+			children = (
+				82F7242D19D9DE45005BC12A /* JLBaseTransitionAnimator.h */,
+				82F7242E19D9DE45005BC12A /* JLBaseTransitionAnimator.m */,
+				82F7242F19D9DE45005BC12A /* JLDropTransitionAnimator.h */,
+				82F7243019D9DE45005BC12A /* JLDropTransitionAnimator.m */,
+				82F7243119D9DE45005BC12A /* JLSpringTransitionAnimator.h */,
+				82F7243219D9DE45005BC12A /* JLSpringTransitionAnimator.m */,
+				82F7243319D9DE45005BC12A /* JLZoomTransitionAnimator.h */,
+				82F7243419D9DE45005BC12A /* JLZoomTransitionAnimator.m */,
+			);
+			path = TransitionAnimators;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82F7240219D9DDED005BC12A /* CustomTransitionsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F7242619D9DDED005BC12A /* Build configuration list for PBXNativeTarget "CustomTransitionsDemo" */;
+			buildPhases = (
+				82F723FF19D9DDED005BC12A /* Sources */,
+				82F7240019D9DDED005BC12A /* Frameworks */,
+				82F7240119D9DDED005BC12A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomTransitionsDemo;
+			productName = CustomTransitionsDemo;
+			productReference = 82F7240319D9DDED005BC12A /* CustomTransitionsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82F7241B19D9DDED005BC12A /* CustomTransitionsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F7242919D9DDED005BC12A /* Build configuration list for PBXNativeTarget "CustomTransitionsDemoTests" */;
+			buildPhases = (
+				82F7241819D9DDED005BC12A /* Sources */,
+				82F7241919D9DDED005BC12A /* Frameworks */,
+				82F7241A19D9DDED005BC12A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82F7241E19D9DDED005BC12A /* PBXTargetDependency */,
+			);
+			name = CustomTransitionsDemoTests;
+			productName = CustomTransitionsDemoTests;
+			productReference = 82F7241C19D9DDED005BC12A /* CustomTransitionsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82F723FB19D9DDED005BC12A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Parallel Mobile";
+				TargetAttributes = {
+					82F7240219D9DDED005BC12A = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					82F7241B19D9DDED005BC12A = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 82F7240219D9DDED005BC12A;
+					};
+				};
+			};
+			buildConfigurationList = 82F723FE19D9DDED005BC12A /* Build configuration list for PBXProject "CustomTransitionsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82F723FA19D9DDED005BC12A;
+			productRefGroup = 82F7240419D9DDED005BC12A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82F7240219D9DDED005BC12A /* CustomTransitionsDemo */,
+				82F7241B19D9DDED005BC12A /* CustomTransitionsDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82F7240119D9DDED005BC12A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F7243F19D9DF55005BC12A /* JLDatePickerViewController.xib in Resources */,
+				82F7241219D9DDED005BC12A /* Main.storyboard in Resources */,
+				82F7241719D9DDED005BC12A /* LaunchScreen.xib in Resources */,
+				82F7241419D9DDED005BC12A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F7241A19D9DDED005BC12A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82F723FF19D9DDED005BC12A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F7243719D9DE45005BC12A /* JLSpringTransitionAnimator.m in Sources */,
+				82F7243519D9DE45005BC12A /* JLBaseTransitionAnimator.m in Sources */,
+				82F7240C19D9DDED005BC12A /* AppDelegate.m in Sources */,
+				82F7244019D9DF55005BC12A /* JLMainViewController.m in Sources */,
+				82F7240919D9DDED005BC12A /* main.m in Sources */,
+				82F7243E19D9DF55005BC12A /* JLDatePickerViewController.m in Sources */,
+				82F7243619D9DE45005BC12A /* JLDropTransitionAnimator.m in Sources */,
+				82F7243819D9DE45005BC12A /* JLZoomTransitionAnimator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F7241819D9DDED005BC12A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F7242319D9DDED005BC12A /* CustomTransitionsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82F7241E19D9DDED005BC12A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82F7240219D9DDED005BC12A /* CustomTransitionsDemo */;
+			targetProxy = 82F7241D19D9DDED005BC12A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82F7241019D9DDED005BC12A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82F7241119D9DDED005BC12A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82F7241519D9DDED005BC12A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82F7241619D9DDED005BC12A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82F7242419D9DDED005BC12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82F7242519D9DDED005BC12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82F7242719D9DDED005BC12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomTransitionsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82F7242819D9DDED005BC12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomTransitionsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82F7242A19D9DDED005BC12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomTransitionsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTransitionsDemo.app/CustomTransitionsDemo";
+			};
+			name = Debug;
+		};
+		82F7242B19D9DDED005BC12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomTransitionsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTransitionsDemo.app/CustomTransitionsDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82F723FE19D9DDED005BC12A /* Build configuration list for PBXProject "CustomTransitionsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F7242419D9DDED005BC12A /* Debug */,
+				82F7242519D9DDED005BC12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82F7242619D9DDED005BC12A /* Build configuration list for PBXNativeTarget "CustomTransitionsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F7242719D9DDED005BC12A /* Debug */,
+				82F7242819D9DDED005BC12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82F7242919D9DDED005BC12A /* Build configuration list for PBXNativeTarget "CustomTransitionsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F7242A19D9DDED005BC12A /* Debug */,
+				82F7242B19D9DDED005BC12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82F723FB19D9DDED005BC12A /* Project object */;
+}

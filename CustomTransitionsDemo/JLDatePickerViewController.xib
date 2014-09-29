@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JLDatePickerViewController">
+            <connections>
+                <outlet property="datePicker" destination="T3M-Ma-it1" id="IRp-gZ-GFz"/>
+                <outlet property="view" destination="s59-9U-LF3" id="nvW-NT-dPs"/>
+            </connections>
+        </placeholder>
+        <view tag="2" contentMode="scaleToFill" id="s59-9U-LF3" userLabel="Container View">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXr-0K-lzj">
+                    <rect key="frame" x="8" y="516" width="148" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="4bi-Hk-1OY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="Cancel">
+                        <color key="titleColor" red="0.88528376819999999" green="0.37111672759999997" blue="0.1006201431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="cancel:" destination="-1" eventType="touchUpInside" id="TXJ-o1-q3w"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8TW-ng-ZUG">
+                    <rect key="frame" x="164" y="516" width="148" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="8il-zA-pWo"/>
+                    </constraints>
+                    <state key="normal" title="Done">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="done:" destination="-1" eventType="touchUpInside" id="vRV-Bm-5uw"/>
+                    </connections>
+                </button>
+                <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cdo-OG-JmH">
+                    <rect key="frame" x="8" y="294" width="304" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="mcT-0j-jEU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="T3M-Ma-it1">
+                    <rect key="frame" x="8" y="346" width="304" height="162"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <date key="date" timeIntervalSinceReferenceDate="433193029.149773">
+                        <!--2014-09-23 19:23:49 +0000-->
+                    </date>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </datePicker>
+            </subviews>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="cXr-0K-lzj" firstAttribute="leading" secondItem="s59-9U-LF3" secondAttribute="leading" constant="8" id="6Bv-cz-7Bu"/>
+                <constraint firstItem="T3M-Ma-it1" firstAttribute="leading" secondItem="s59-9U-LF3" secondAttribute="leading" constant="8" id="FY8-VS-dOe"/>
+                <constraint firstItem="8TW-ng-ZUG" firstAttribute="leading" secondItem="cXr-0K-lzj" secondAttribute="trailing" constant="8" symbolic="YES" id="RCR-U2-vH9"/>
+                <constraint firstAttribute="bottom" secondItem="8TW-ng-ZUG" secondAttribute="bottom" constant="8" id="YuN-FV-iaR"/>
+                <constraint firstItem="T3M-Ma-it1" firstAttribute="top" secondItem="Cdo-OG-JmH" secondAttribute="bottom" constant="8" id="ccg-9o-Mun"/>
+                <constraint firstItem="Cdo-OG-JmH" firstAttribute="leading" secondItem="s59-9U-LF3" secondAttribute="leading" constant="8" id="dGC-dd-dF5"/>
+                <constraint firstItem="cXr-0K-lzj" firstAttribute="width" secondItem="8TW-ng-ZUG" secondAttribute="width" id="gVu-8x-cYd"/>
+                <constraint firstItem="8TW-ng-ZUG" firstAttribute="leading" secondItem="cXr-0K-lzj" secondAttribute="trailing" constant="8" symbolic="YES" id="lJ4-Ii-ZyX"/>
+                <constraint firstAttribute="trailing" secondItem="Cdo-OG-JmH" secondAttribute="trailing" constant="8" id="sxF-wp-9EP"/>
+                <constraint firstItem="8TW-ng-ZUG" firstAttribute="top" secondItem="T3M-Ma-it1" secondAttribute="bottom" constant="8" id="tWy-JM-Kcd"/>
+                <constraint firstAttribute="trailing" secondItem="8TW-ng-ZUG" secondAttribute="trailing" constant="8" id="vFV-ck-2kv"/>
+                <constraint firstAttribute="trailing" secondItem="T3M-Ma-it1" secondAttribute="trailing" constant="8" id="wSt-Oz-p4d"/>
+                <constraint firstAttribute="bottom" secondItem="cXr-0K-lzj" secondAttribute="bottom" constant="8" id="zk9-jZ-hZg"/>
+            </constraints>
+            <point key="canvasLocation" x="-2845" y="-59"/>
+        </view>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
