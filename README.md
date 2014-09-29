@@ -1,13 +1,13 @@
 CustomTransitionsDemo
 =====================
 
-Sample project demonstrating custom view controller transitions. If you're not presenting your custom sheets/alerts/modals using this API, you're doing it wrong.
+Sample project demonstrating a custom date picker controller (a not so uncommon requirement) implemented with custom view controller transitions. If you're not presenting your custom sheets/alerts/modals/pickers/popups using this API, you're doing it **wrong**.
 
 Includes 3 custom transition animators:
 
-1. Spring transition animator: animates the presentation using UIView spring animations
-2. Zoom transition animator: uses a simple scale transform animation
-3. Drop transition animator: simulates a drop using UIKit Dynamics
+1. Spring transition animator: animates the presentation using UIView <a href="https://developer.apple.com/library/IOs/documentation/UIKit/Reference/UIView_Class/index.html#//apple_ref/occ/clm/UIView/animateWithDuration:delay:usingSpringWithDamping:initialSpringVelocity:options:animations:completion:">spring animations</a>
+2. Zoom transition animator: simple scale transform animation
+3. Drop transition animator: simulates a falling object using UIKit Dynamics
 
 Screenshots
 ------
