@@ -11,9 +11,9 @@ Includes 3 custom transition animators:
 
 Screenshots
 ------
-<img src="http://i.imgur.com/gdqHSm6.png?1">
-&nbsp;&nbsp;
-<img src="http://i.imgur.com/gEgZF5K.png?1">
+<img src="http://i.imgur.com/5LnJTKL.png">
+&nbsp;
+<img src="http://i.imgur.com/mkf9xqV.png">
 
 Requirements
 ------
